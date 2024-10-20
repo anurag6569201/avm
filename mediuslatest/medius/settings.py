@@ -26,8 +26,8 @@ SECRET_KEY = 'django-insecure-q&h4ah$ge*mfwzz0l2j(e(u-b5c95&!)=#8064p6^(saxuad2w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
-
+ALLOWED_HOSTS =  ['https://mediusai.azurewebsites.net','https://127.0.0.1','*']
+CSRF_TRUSTED_ORIGINS = ['https://mediusai.azurewebsites.net','https://127.0.0.1']
 
 # Application definition
 
